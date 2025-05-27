@@ -38,7 +38,7 @@ VALUES (
         'Mountain Range'
     );
 
-SELECT * from rangers;
+
 
 -- species
 INSERT INTO
@@ -78,7 +78,7 @@ VALUES (
         'Endangered'
     );
 
-SELECT * from species;
+
 -- sightings
 INSERT INTO
     sightings (
@@ -122,14 +122,13 @@ VALUES (
         NULL
     );
 
-SELECT * from sightings;
+
 
 -- Problem No:1
 INSERT INTO
     rangers (name, region)
 VALUES ('Derek Fox', 'Coastal Plains');
 
-SELECT * FROM rangers;
 
 -- Problem No:2
 SELECT COUNT(DISTINCT species_id) AS unique_species_count
